@@ -75,4 +75,3 @@ test('hould handle date focus changes', () => {
   wrapper.find('DateRangePicker').prop('onFocusChange')(calendarFocused);
   expect(wrapper.state('calendarFocused')).toBe(calendarFocused);
 });
-
